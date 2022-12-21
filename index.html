@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/game.css">
+  <title>game</title>
+</head>
+
+<body>
+  <div class="bg">
+    <!--https://www.youtube.com/watch?v=SHNKHN82Czs-->
+    <audio id="audio" src="audio/hout.mp3"></audio>
+    <audio id="kusgeven" src="audio/kiss.mp3"></audio>
+    <audio id="dood" src="audio/gameover.mp3"></audio>
+
+    <!--afbeeldingen de kaart zelf in elkaar gezet https://itch.io/-->
+    <img id="steen" src="img/steen.png" alt="">
+    <img id="koe" src="img/koe.png" alt="">
+    <img id="graan" src="img/graan.png" alt="">
+    <img id="huis" src="img/huisje.png" alt="">
+    <img id="bomen" src="img/bomen.png" alt="">
+    <!--bron: pop https://nl.pinterest.com/pin/829506825117388337/-->
+    <img id="pop" src="img/pop.gif" alt="">
+
+    
+      <h1 id="countdown">Lets go</h1>
+    
+    <p>Welkom! collect al je producten en zorg ervoor dat je genoeg hebt om te overleven. doe dit binnen de tijd! Laten
+      we beginnen met een huis.</p>
+    <button>Maak huis</button>
+    <!--geholpen door timon-->
+    <button id="graanknop"  style="display:none" onclick="style.display = 'none'">ja </button>
+    <button id="steenknop"  style="display:none" onclick="style.display = 'none'">ja </button>
+  </div>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
